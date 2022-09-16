@@ -1,0 +1,1 @@
+<?php function myfunction&#40;&#41;{echo&#40;&#34;<strong>I love PHP !</strong><br>&#34;&#41;;}?><a href=&#34;<?php echo&#40;&#34;$PHP_SELF?execute=myfunction&#34;&#41;?>&#34;>click to execute myfunction ! </a><p><?php if &#40; isset&#40;$execute&#41; &#41;{myfunction&#40;&#41;;}?>
